@@ -47,7 +47,7 @@ public class EstruturaSwitchCase {
             }
         }
 
-        System.out.println("Type a number to choose:");
+        System.out.println("Type a char to choose:");
         System.out.println("A: Buy; B: Sell; C: Listing; D: Quit;");
         Scanner reader = new Scanner(System.in);
         char choice = reader.next().charAt(0);
