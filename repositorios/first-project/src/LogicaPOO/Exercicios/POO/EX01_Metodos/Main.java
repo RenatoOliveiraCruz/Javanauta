@@ -1,4 +1,4 @@
-package LogicaPOO.Exercicios.EX01_Metodos;
+package LogicaPOO.Exercicios.POO.EX01_Metodos;
 
 public class Main {
     public static void main(String[] args) {
