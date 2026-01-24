@@ -1,17 +1,18 @@
 package LogicaPOO.POO.Atleta;
 
-import java.util.Scanner;
-
 public class AtletaIdoso extends Atleta {
-    int idadeMinima = 60;
+    boolean experiente;
 
-
-    public AtletaIdoso (String etnia, String modalidade, double altura, double peso, int idadeMinima){
+    public AtletaIdoso(String etnia, String modalidade, double altura, double peso, boolean experiente) {
         super(etnia, modalidade, altura, peso);
-        this.idadeMinima = idadeMinima;
+        this.experiente = experiente;
     }
 
-    public void experiencia(){
-
+    public void experienciaContavel() {
+        if (this.experiente) {
+            System.out.printf("Atleta idoso experiente! Muitos títulos conquistados ao longo da carreira.");
+        } else {
+            System.out.printf("Atleta idoso porém inexperiente... Precisa de mais prática e dedicação.");
+        }
     }
 }
