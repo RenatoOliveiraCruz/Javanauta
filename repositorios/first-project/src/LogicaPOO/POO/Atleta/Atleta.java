@@ -14,7 +14,7 @@ public class Atleta {
     }
 
     public void correr() {
-        System.out.printf("Correndo eficientemente");
+        System.out.printf("Correndo eficientemente\n");
     }
 
     public void pula() {
