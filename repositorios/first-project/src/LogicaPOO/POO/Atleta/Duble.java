@@ -12,9 +12,9 @@ public class Duble extends Atleta {
     // O Método exclusivo criado
     public void quedaPericulosa(){
         if (this.estaEmForma) {
-            System.out.printf("Caindo com técnica! Dublê saiu ileso");
+            System.out.printf("Caindo com técnica! Dublê saiu ileso\n");
         } else {
-            System.out.printf("Dublê fora de forma... Chamem a ambulância");
+            System.out.printf("Dublê fora de forma... Chamem a ambulância\n");
         }
     }
 }
