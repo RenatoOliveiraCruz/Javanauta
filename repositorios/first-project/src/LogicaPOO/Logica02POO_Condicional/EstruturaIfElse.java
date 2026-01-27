@@ -15,12 +15,11 @@ public class EstruturaIfElse {
         boolean ps5 = true;
         boolean pc = true;
         if (pc && ps5) {
-            System.out.println("Seu setup é foda!!!");
+            System.out.println("Seu setup é top!!!");
         } else if (!pc && !ps5) {
             System.out.println("Vish, que pena, você ta fora da jogatina");
         } else {
             System.out.println("Que maneiro ter uma plataforma pra jogar né?!");
         }
-
     }
 }
