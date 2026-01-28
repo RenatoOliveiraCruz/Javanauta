@@ -57,7 +57,6 @@ public class EstruturaSwitchCase {
             case 'C' -> System.out.println("You choose: Listing");
             default -> System.out.println("Quiting...");
         }
-
     }
 }
 

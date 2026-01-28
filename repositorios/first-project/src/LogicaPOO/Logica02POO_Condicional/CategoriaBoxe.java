@@ -26,11 +26,5 @@ public class CategoriaBoxe {
         } else {
             System.out.printf("O lutador %s, entrará na categoria Peso Pesado", nome);
         }
-
-        // Concatena e formata
-        System.out.printf("O lutador %s, entrará na categoria de %.2f kg%n", nome, peso);
-
-
-
     }
 }
