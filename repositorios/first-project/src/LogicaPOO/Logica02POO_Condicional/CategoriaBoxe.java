@@ -21,7 +21,7 @@ public class CategoriaBoxe {
 
         if (peso < 70) {
             System.out.printf("O lutador %s, entrará na categoria Peso Pena", nome);
-        } else if (peso >= 70 && peso <= 85) {
+        } else if (peso <= 85) {
             System.out.printf("O lutador %s, entrará na categoria Peso Médio", nome);
         } else {
             System.out.printf("O lutador %s, entrará na categoria Peso Pesado", nome);
