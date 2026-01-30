@@ -14,5 +14,6 @@ public class ParImpar {
         } else {
             System.out.printf("O número %d é par", numero);
         }
+        scanner.close();
     }
 }
