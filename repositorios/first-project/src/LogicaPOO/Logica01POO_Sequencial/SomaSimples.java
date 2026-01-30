@@ -13,5 +13,6 @@ public class SomaSimples {
 
         int somaSimples = firstN + secondN;
         System.out.printf("O valor de %d + %d é igual a %d", firstN, secondN, somaSimples);
+        scanner.close();
     }
 }
