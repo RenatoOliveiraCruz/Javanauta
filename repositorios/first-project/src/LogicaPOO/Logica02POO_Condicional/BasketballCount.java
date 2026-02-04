@@ -1,6 +1,18 @@
 package LogicaPOO.Logica02POO_Condicional;
 
 public class BasketballCount {
+    private int totalPoint;
+
+    public void setTotalPoint(int pontos) {
+        if (pontos < 0) {
+            System.out.println("Erro: Pontuação negativa não permitida!");
+        } else {
+            this.totalPoint = pontos;
+        }
+    }
+
+
+
     public static void main(String[] args) {
         int threePoint, twoPoint, onePoint;
         threePoint = 3;
