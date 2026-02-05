@@ -5,5 +5,6 @@ public class Aluno {
     String matricula;
     String curso;
     String[] disciplinas = new String[3];
+    double[][] notasDisciplinas = new double[3][4]; // 3 para as Disciplinas e a média
 
 }
