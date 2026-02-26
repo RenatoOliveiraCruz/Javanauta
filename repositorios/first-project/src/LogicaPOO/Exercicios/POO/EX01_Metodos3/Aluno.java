@@ -21,5 +21,13 @@ public class Aluno {
         }
     }
 
-    boolean verificarSituacao
+    boolean verificarSituacao(int index) {
+        if (obterMedia(index) >= 7) {
+            return true;
+        }
+        return false;
     }
+
+}
+
+
