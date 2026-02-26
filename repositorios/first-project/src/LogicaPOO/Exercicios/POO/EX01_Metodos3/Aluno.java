@@ -28,6 +28,17 @@ public class Aluno {
         return false;
     }
 
+    double obterMedia(int index){
+        double soma = 0;
+
+        for (int i = 0; i < notasDisciplinas[index].length; i++){
+            soma += notasDisciplinas[index][i];
+        }
+
+        double media = soma / 4;
+
+        return media;
+    }
 }
 
 
