@@ -36,7 +36,6 @@ public class Aluno {
         }
 
         double media = soma / 4;
-
         return media;
     }
 }
