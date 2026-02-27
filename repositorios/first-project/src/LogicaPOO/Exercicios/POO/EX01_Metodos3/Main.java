@@ -16,5 +16,12 @@ public class Main {
         System.out.println("Entre com a Matrícula: ");
         aluno.matricula = scan.next();
 
+
+        for (int i=0; i<aluno.disciplinas.length; i++){
+            System.out.println("Informe o nome da disciplina " + i);
+            aluno.disciplinas[i] = scan.next();
+        }
+
+
     }
 }
