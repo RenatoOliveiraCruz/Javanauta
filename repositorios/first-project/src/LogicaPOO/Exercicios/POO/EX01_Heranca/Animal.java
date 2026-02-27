@@ -45,5 +45,7 @@ public class Animal {
         public double getVelocidade() {
             return velocidade;
     }
-
+        public void setVelocidade(double velocidade) {
+            this.velocidade = velocidade;
+    }
 }
