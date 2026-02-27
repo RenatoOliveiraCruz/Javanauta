@@ -21,4 +21,7 @@ public class Animal {
         public int getComprimento() {
             return comprimento;
     }
+        public void setComprimento(int comprimento) {
+            this.comprimento = comprimento;
+    }
 }
