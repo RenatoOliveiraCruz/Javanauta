@@ -11,4 +11,9 @@ public class Animal {
         public Animal() {
             this.patas = 4;
         }
+
+        public String getNome() {
+            return nome;
+    }
+
 }
