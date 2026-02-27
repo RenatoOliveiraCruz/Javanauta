@@ -33,6 +33,9 @@ public class Animal {
         public String getCor(String cor) {
             return cor;
     }
+        public void setCor(String cor) {
+            this.cor = cor;
+    }
         public String getAmbiente() {
             return ambiente;
     }
