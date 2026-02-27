@@ -39,8 +39,11 @@ public class Animal {
         public String getAmbiente() {
             return ambiente;
     }
-        public String setAmbiente() {
+        public String setAmbiente(String ambiente) {
             return ambiente;
+    }
+        public double getVelocidade() {
+            return velocidade;
     }
 
 }
