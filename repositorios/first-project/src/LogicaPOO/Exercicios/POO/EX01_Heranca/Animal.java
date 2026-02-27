@@ -48,4 +48,14 @@ public class Animal {
         public void setVelocidade(double velocidade) {
             this.velocidade = velocidade;
     }
+        @Override
+        public String toString() {
+            String s = "Animal: " + nome;
+            s += "\nComprimento: " + comprimento + " cm";
+            s += "\nPatas: " + patas;
+            s += "\nCor: " + cor;
+            s += "\nAmbiente: " + ambiente;
+            s += "\nVelocidade: " + velocidade + " m/s";
+            return s;
+    }
 }
