@@ -30,8 +30,11 @@ public class Animal {
         public void setPatas(int patas) {
             this.patas = patas;
     }
-        public String getCor() {
+        public String getCor(String cor) {
             return cor;
+    }
+        public String getAmbiente() {
+            return ambiente;
     }
 
 }
