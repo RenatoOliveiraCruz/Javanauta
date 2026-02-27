@@ -8,13 +8,13 @@ public class Main {
         Aluno aluno = new Aluno();
 
         System.out.println("Entre com o nome do aluno: ");
-        aluno.nome = scan.next();
+        aluno.nome = scan.nextLine();
 
         System.out.println("Entre com o nome do curso: ");
-        aluno.curso = scan.next();
+        aluno.curso = scan.nextLine();
 
         System.out.println("Entre com a Matrícula: ");
-        aluno.matricula = scan.next();
+        aluno.matricula = scan.nextLine();
 
 
         for (int i = 0; i < aluno.disciplinas.length; i++) {

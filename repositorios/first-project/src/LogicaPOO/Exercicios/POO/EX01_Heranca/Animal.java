@@ -27,4 +27,11 @@ public class Animal {
         public int getPatas() {
             return patas;
     }
+        public void setPatas(int patas) {
+            this.patas = patas;
+    }
+        public String getCor() {
+            return cor;
+    }
+
 }
