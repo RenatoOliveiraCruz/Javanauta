@@ -39,5 +39,8 @@ public class Animal {
         public String getAmbiente() {
             return ambiente;
     }
+        public String setAmbiente() {
+            return ambiente;
+    }
 
 }
