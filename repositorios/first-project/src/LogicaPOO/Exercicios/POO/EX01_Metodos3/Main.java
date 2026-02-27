@@ -31,5 +31,13 @@ public class Main {
         }
         aluno.mostrarInformacoes();
 
+        for (int i=0; i<aluno.disciplinas.length; i++){
+            if (aluno.verificarSituacao(i)){
+                System.out.println("Disciplina " + aluno.disciplinas[i] + " - foi aprovado");
+            } else {
+                System.out.println("Disciplina " + aluno.disciplinas[i] + " - reprovado");
+            }
+        }
+
     }
 }
