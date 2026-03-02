@@ -15,5 +15,11 @@ public class Main {
         tubarao.setNome("Tubarão");
         tubarao.setComprimento(300);
         tubarao.setVelocidade(1.5);
+
+        Mamifero urso = new Mamifero();
+        urso.setNome("Urso-do-canadá");
+        urso.setComprimento(180);
+        urso.setCor("Vermelho");
+        urso.setVelocidade(0.5);
     }
 }
