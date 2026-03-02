@@ -11,4 +11,7 @@ public class Peixe extends Animal{
         this.caracteristicas = "Barbatanas e cauda";
     }
 
+    public String getCaracteristicas() {
+        return caracteristicas;
+    }
 }
