@@ -27,7 +27,7 @@ public class InAndOutData {
         if (javeiro == true && age > 18) {
             System.out.println("Você está apto");
         } else {
-            System.out.println("Você não está apto");
+            System.out.println("Você não está apto para vaga");
         }
     }
 }
