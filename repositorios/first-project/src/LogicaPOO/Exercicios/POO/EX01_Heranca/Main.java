@@ -11,5 +11,9 @@ public class Main {
         camelo.setAmbiente("Terra");
         camelo.setVelocidade(2);
 
+        Peixe tubarao = new Peixe();
+        tubarao.setNome("Tubarão");
+        tubarao.setComprimento(300);
+        tubarao.setVelocidade(1.5);
     }
 }
