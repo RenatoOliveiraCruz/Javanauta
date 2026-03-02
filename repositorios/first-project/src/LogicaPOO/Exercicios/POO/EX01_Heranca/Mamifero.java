@@ -17,5 +17,12 @@ public class Mamifero extends Animal{
     public void setAlimento(String alimento) {
         this.alimento = alimento;
     }
+
+    @Override
+    public String toString() {
+        String s = super.toString();
+        s += "\nAlimento: " + alimento;
+        return s;
+    }
 }
 
