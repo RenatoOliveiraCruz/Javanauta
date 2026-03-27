@@ -16,7 +16,7 @@ public class Hyuuga {
         System.out.println("The level of mission of the 1º Hyuuga: " + missionLevel);
 
         if(ageHyuuga < 15){
-            if(missionLevel == 'C' || missionLevel == 'D'){
+            if(missionLevel == 'C' || missionLevel == 'A'){
                 missionStatus = "Mission Complete";
             } else{
                 missionStatus = "Mission Incomplete";
@@ -40,7 +40,7 @@ public class Hyuuga {
         System.out.println("The level of mission of the 2º Hyuuga: " + missionLevel2);
 
         if(ageHyuuga2 < 15){
-            if(missionLevel2 == 'C' || missionLevel2 == 'D'){
+            if(missionLevel2 == 'C' || missionLevel2 == 'A'){
                 missionStatus2 = "Mission Complete";
             } else{
                 missionStatus2 = "Mission Incomplete";
@@ -64,7 +64,7 @@ public class Hyuuga {
         System.out.println("The level of mission of the 3º Hyuuga: " + missionLevel3);
 
         if(ageHyuuga3 < 15){
-            if(missionLevel3 == 'C' || missionLevel3 == 'D'){
+            if(missionLevel3 == 'C' || missionLevel3 == 'B'){
                 missionStatus3 = "Mission Complete";
             } else{
                 missionStatus3 = "Mission Incomplete";
