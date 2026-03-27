@@ -16,6 +16,7 @@ public class Hyuuga {
         System.out.println("The level of mission of the 1º Hyuuga: " + missionLevelHyuuga1);
 
         System.out.println("--------------------------------------------");
+
     String nameHyuuga2 = "Hinata";
     int ageHyuuga2 = 19;
     String missionHyuuga2 = "Find the enemys.";
@@ -26,6 +27,7 @@ public class Hyuuga {
         System.out.println("The mission of the 2º Hyuuga: " + missionHyuuga2);
         System.out.println("The status of mission of the 2º Hyuuga: " + missionStatus2);
         System.out.println("The level of mission of the 2º Hyuuga: " + missionLevelHyuuga2);
+
         System.out.println("--------------------------------------------");
 
     String nameHyuuga3 = "Hanabi";
@@ -38,5 +40,7 @@ public class Hyuuga {
         System.out.println("The mission of the 3º Hyuuga: " + missionHyuuga3);
         System.out.println("The status of mission of the 3º Hyuuga: " + missionStatus3);
         System.out.println("The level of mission of the 3º Hyuuga: " + missionLevelHyuuga3);
+
+
     }
 }
