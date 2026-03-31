@@ -6,7 +6,7 @@ public class Narutinho {
         String nome = "Kakashi Hatake";
         int idade = 30;
         boolean hokage = true;
-        short numerodeMissoes = 4213;
+        short numerodeMissoes = 23;
 
     }
 }
