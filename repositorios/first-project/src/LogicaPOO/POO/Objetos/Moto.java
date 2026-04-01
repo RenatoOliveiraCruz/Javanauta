@@ -9,5 +9,7 @@ public class Moto {
     int ano;
     int velocidade;
 
-
+    void acelerar(){
+        velocidade += 10;
+    }
 }
