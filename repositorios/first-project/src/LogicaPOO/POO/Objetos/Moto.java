@@ -1,8 +1,6 @@
 package LogicaPOO.POO.Objetos;
 
 public class Moto {
-    public static void main(String[] args) {
-
     String modelo;
     String cor;
     boolean abs;
@@ -11,13 +9,16 @@ public class Moto {
     int ano;
     int velocidade;
 
-    void acelerar(){
-        velocidade += 10;
-    }
+    public static void main(String[] args) {
 
     Moto minhaMoto = new Moto();
     minhaMoto.modelo = "FZ25";
     minhaMoto.acelerar();
+    }
+
+    public void acelerar(){
+        velocidade += 40;
+        System.out.println(velocidade);
     }
 }
 
