@@ -14,6 +14,15 @@ public class Moto {
     Moto minhaMoto = new Moto();
     minhaMoto.modelo = "FZ25";
     minhaMoto.acelerar();
+    minhaMoto.cor = "Azul";
+    minhaMoto.tanque = 14;
+    minhaMoto.abs = true;
+    minhaMoto.ano = 2025;
+    minhaMoto.cilindradas = 250;
+    }
+
+    public void mostrarCilindradas(){
+        System.out.println();
     }
 
     public void acelerar(){
