@@ -9,6 +9,11 @@ public class Moto {
     int ano;
     int velocidade;
 
+    public void acelerar(){
+        velocidade += 40;
+        System.out.println(velocidade);
+    }
+
     public static void main(String[] args) {
 
     Moto minhaMoto = new Moto();
@@ -25,9 +30,5 @@ public class Moto {
         System.out.println();
     }
 
-    public void acelerar(){
-        velocidade += 40;
-        System.out.println(velocidade);
-    }
 }
 
