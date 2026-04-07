@@ -50,7 +50,9 @@ public class Moto {
         this.modelo = modelo;
     }
 
-
+    public int getVelocidade() {
+        return velocidade;
+    }
 
     public static void main(String[] args) {
 
