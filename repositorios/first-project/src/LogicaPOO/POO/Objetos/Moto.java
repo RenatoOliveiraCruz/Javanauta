@@ -22,12 +22,12 @@ public class Moto {
     }
 
     //  Métodos (comportamentos)
-    public void acelerar(){
+    public void acelerar() {
         velocidade += 40;
         System.out.println(velocidade);
     }
 
-    public void frear(){
+    public void frear() {
         velocidade -= 10;
         if (velocidade < 0) velocidade = 0;
     }
@@ -42,7 +42,7 @@ public class Moto {
     }
 
     // Gettes e Setters
-    public String getModelo(){
+    public String getModelo() {
         return modelo;
     }
 
@@ -52,26 +52,5 @@ public class Moto {
 
     public int getVelocidade() {
         return velocidade;
-    }
-
-    public static void main(String[] args) {
-
-    Moto minhaMoto = new Moto();
-    minhaMoto.modelo = "FZ25";
-    minhaMoto.acelerar();
-    minhaMoto.cor = "Azul";
-    minhaMoto.tanque = 14;
-    minhaMoto.abs = true;
-    minhaMoto.ano = 2025;
-    minhaMoto.cilindradas = 250;
-    minhaMoto.getCilindradas();
-    }
-
-    public void getCilindradas(){
-        if (cilindradas >= 250){
-            System.out.println("Boa de pista com: "+cilindradas +" cilindradas.");
-        } else {
-            System.out.println("Fraca por possuir "+cilindradas +" cilindradas.");
-        }
     }
 }
