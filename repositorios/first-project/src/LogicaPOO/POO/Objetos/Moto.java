@@ -1,18 +1,38 @@
 package LogicaPOO.POO.Objetos;
 
 public class Moto {
-    String modelo;
-    String cor;
-    boolean abs;
-    int cilindradas;
-    int tanque;
-    int ano;
-    int velocidade;
+    // Encapsulamento
+    private String modelo;
+    private String cor;
+    private boolean abs;
+    private int cilindradas;
+    private int tanque;
+    private int ano;
+    private int velocidade;
 
+    // Construtor
+    public Moto(String modelo, String cor, int cilindradas, int ano) {
+        this.modelo = modelo;
+        this.cor = cor;
+        this.abs = abs;
+        this.cilindradas = cilindradas;
+        this.tanque = tanque;
+        this.ano = ano;
+        this.velocidade = 0;
+    }
+
+    //  Métodos (comportamentos)
     public void acelerar(){
         velocidade += 40;
         System.out.println(velocidade);
     }
+
+    public void frear(){
+        velocidade -= 10;
+        if (velocidade < 0) velocidade = 0;
+    }
+
+
 
     public static void main(String[] args) {
 
