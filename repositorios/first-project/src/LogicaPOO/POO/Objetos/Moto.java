@@ -24,10 +24,14 @@ public class Moto {
     minhaMoto.abs = true;
     minhaMoto.ano = 2025;
     minhaMoto.cilindradas = 250;
-    minhaMoto.mostrarCilindradas();
+    minhaMoto.getCilindradas();
     }
 
-    public void mostrarCilindradas(){
-        System.out.println(cilindradas);
+    public void getCilindradas(){
+        if (cilindradas >= 250){
+            System.out.println("Boa de pista com: "+cilindradas +" cilindradas.");
+        } else {
+            System.out.println("Fraca por possuir "+cilindradas +" cilindradas.");
+        }
     }
 }
