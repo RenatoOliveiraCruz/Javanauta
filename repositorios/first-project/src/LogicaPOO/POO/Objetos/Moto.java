@@ -32,6 +32,24 @@ public class Moto {
         if (velocidade < 0) velocidade = 0;
     }
 
+    // Metodo de exibiçao
+    public void exibirDados() {
+        System.out.println("Modelo: " + modelo);
+        System.out.println("Cor: " + cor);
+        System.out.println("Cilindradas: " + cilindradas);
+        System.out.println("Ano: " + ano);
+        System.out.println("Velocidade: " + velocidade);
+    }
+
+    // Gettes e Setters
+    public String getModelo(){
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
 
 
     public static void main(String[] args) {
