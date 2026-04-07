@@ -24,11 +24,10 @@ public class Moto {
     minhaMoto.abs = true;
     minhaMoto.ano = 2025;
     minhaMoto.cilindradas = 250;
+    minhaMoto.mostrarCilindradas();
     }
 
     public void mostrarCilindradas(){
-        System.out.println();
+        System.out.println(cilindradas);
     }
-
 }
-
