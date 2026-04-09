@@ -50,7 +50,6 @@ public class AL {
             qntddAgendamentos = agendamentos;
             ++qntddAgendamentos;
         }
-
         System.out.println("Você possui " + qntddAgendamentos + " agendamentos.");
     }
 }

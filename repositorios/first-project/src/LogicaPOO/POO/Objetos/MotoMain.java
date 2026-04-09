@@ -15,11 +15,11 @@ public class MotoMain {
         }
 
         public void getCilindradas(){
+            int cilindradas;
             if (cilindradas >= 250){
-                System.out.println("Boa de pista com: "+cilindradas +" cilindradas.");
+                System.out.println("Boa de pista com: " + cilindradas +" cilindradas.");
             } else {
-                System.out.println("Fraca por possuir "+cilindradas +" cilindradas.");
+                System.out.println("Fraca por possuir " +  " cilindradas.");
             }
         }
     }
-}
